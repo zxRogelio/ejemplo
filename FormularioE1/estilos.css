@@ -1,0 +1,32 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/Practica1/Image/Stephen\ Curry\ Golden\ State\ Warriors_1.jpg);
+
+}
+.form-contenedor{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: wheat;
+    text-align: center;
+    
+}
+.formulario-p1{
+    text-align: center;
+    background-color: wheat;
+    margin: 100px;
+
+}
+.enviar{
+    border-radius: 1rem;
+    background-color: green;
+}
+.Cancelar{
+    border-radius: 1rem;
+    background-color: red;
+}
+.Nombre{
+    background-color: whitesmoke;
+}

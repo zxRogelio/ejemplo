@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con controles clasicos</title>
+</head>
+<header>
+    <div class="title">
+        <h1>Formulario con controles clasicos</h1>
+    </div>
+</header>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Botones</legend>
+            <label for="">Campo de texto</label>
+            <input type="text" name="" id="" value="Puede colocar texto" >
+            <br>
+            <br>
+            <br>
+            <br>
+            <label for="">Areas de dato</label>
+            <textarea name="" id="textarea-1"></textarea>
+            <br>
+            <br>
+            <label for="">Campo para contraseña</label>
+            <input type="password" name="" id="">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Controles de seleccion</legend>
+            <label for="">Lista de seleccion simple (tipo combo): </label>
+            <select name="Mascota1" id="">
+                <option value="">Perros</option>
+                <option value="">Gatos</option>
+                <option value="">Otros</option>
+            </select>
+            <label for="">Lista de seleccion simple</label>
+            <select name="Mascota2" size="2" id="">
+                <option value="">Perro</option>
+                <option value="">Gatos</option>
+                <option value="">Otros</option>
+            </select>
+            <label for="">Lista de seleccion multiple</label>
+            <select name="Mascota 3 " size="3" multiple id="">
+                <option value="">Perro</option>
+                <option value="">Gatos</option>
+                <option value="">Otros</option>
+            </select>
+            <br>
+            <br>
+            <label for="">Lista de botones radio:</label>
+            <input type="radio" name="tipo_mascota" value="1" id="Perro">
+            <label for="Perro">Perro</label>
+            <input type="radio" name="tipo_mascota" id="Gato" value="2">
+            <label for="Gato">Gato</label>
+            <input type="radio" name="tipo_mascota" id="Outro" value="3">
+            <label for="Outro">Otros</label>
+            <br>
+            <br>
+            <input type="checkbox" name="tam_chico" id="chico" value="1">
+            <label for="chico">Chico</label>
+            <input type="checkbox" name="tam_mediano" id="mediano" value="2">
+            <label for="mediano">Mediano</label>
+            <input type="checkbox" name="tam_grande" id="grande" value="3" checked="checked">
+            <label for="grande">Grande</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Botones</legend>
+            <input type="submit" value="Enviar informacion" id="envia">
+            <input type="reset" value="Borra informacion" id="borra">
+            <button type="button"> Boton </button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Otros</legend>
+            <input type="image" src="./Imagenes/OIP.jpg" alt="Imagen como boton"/> 
+        </fieldset>
+        <meter value="2" min="0" max="10">2 de 10</meter>
+
+    </form>
+    
+</body>
+</html>

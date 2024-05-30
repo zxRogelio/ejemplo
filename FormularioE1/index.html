@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario P1</title>
+</head>
+<body>
+    <form action="/sumit" method="get" class="formulario-p1">
+        <h1>Formulario Practica I Rogelio Hernandez Vera</h1>
+        <label for="name" >Nombre:</label><br>
+        <input type="text"class="Nombre" id="name" oninput="this.value = this.value.toUpperCase()"><br>
+        <label for="Apaterno">Apellido Paterno:</label><br>
+        <input type="text" id="Apaterno" maxlength="60"><br>
+        <label for="Amaterno">Apellido Materno:</label><br>
+        <input type="text" id="Amaterno" maxlength="60"><br>
+
+        <legend>-Sexo-</legend>
+        <input type="checkbox" name="SexoH" id="SexoH" value="S1" required>
+        <label for="hombre">Hombre</label>
+        <input type="checkbox" name="SexoM" id="SexoM" value="S2" required>
+        <label for="hombre">Mujer</label><br>
+
+        <label for="correo">Correo Electronico:</label required>
+        <input type="email" name="correo" id="Correo"><br>
+
+        <input type="checkbox" name="name" id="novedades" required>
+        <label for="info">"Deseo recibir informacion sobre novedades y ofertas"</label><br>
+
+        <input type="checkbox" name="info" id="condiciones"checked>
+        <label for="info">"Declaro haber leido y aceptar las condiciones generales del programa y la normativa sore proteccion de datos"</label>
+
+        <div class="form-contenedor">
+            <form action="">
+                <button type="submit" class="enviar">Enviar</button>
+                <button type="button" class="Cancelar">Cancelar</button>
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
